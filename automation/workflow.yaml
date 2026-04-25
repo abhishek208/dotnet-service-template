@@ -1,0 +1,11 @@
+repository: sample-service
+
+jobs:
+  - name: build
+    type: dotnet-build
+
+  - name: unit-test
+    type: test
+
+  - name: deploy-dev
+    type: deployment
